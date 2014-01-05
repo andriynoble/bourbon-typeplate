@@ -1,0 +1,22 @@
+@import 'bourbon';
+@import 'neat';
+
+.container {
+    @include outer-container;
+}
+header {
+    h1 {
+        @include span-columns(6);
+    }
+    nav {
+        @include span-columns(6);
+    }
+}
+section {
+    article {
+        @include span-columns(8);
+    }
+    aside {
+        @include span-columns(4);
+    }
+}
